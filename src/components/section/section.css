@@ -1,0 +1,32 @@
+.sectionContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid rgba(0,0,0,0.3);
+    padding:20px;
+    max-width: 70%;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.sectionContentContainer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionImage {
+    width:400px;
+    height:300px;
+    /* background-color:lightgreen; */
+    margin:20px 50px;
+}
+
+.sectionContent {
+    width:400px;
+}
